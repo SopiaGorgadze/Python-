@@ -1,3 +1,5 @@
+# class variables
+
 class Fish:
 
     total = 0 

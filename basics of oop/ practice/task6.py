@@ -1,3 +1,6 @@
+# class variables
+
+
 class Bike:
     rented_count = 0
 
