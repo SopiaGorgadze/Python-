@@ -1,37 +1,21 @@
-# aggregation
+# polimorphism, inheritance
 
-class School:
-    def __init__(self, name):
-        self.name = name
-        self.names_list = []
+class Device:
+    def start(self):
+        print("starting device")
 
-    def add_student(self, student):
-        self.names_list.append(student)
-    
-    def students_list(self):
-        return[f"  name: {student.name}, age: {student.age}" for student in self.names_list]
-    
-        
-class Student:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+class Laptop(Device):
+    def start(self):
+        print("laptop is starting")
 
+class Phone(Device):
+    def start(self):
+        print("phone is turning on")
 
-    
-school  = School("new york school")
+device = Device()
+laptop = Laptop()
+phone = Phone()
 
-student = Student("sofia", 17)
-student2 = Student("lizi", 16)
-student3 = Student("tako", 17)
-student4 = Student("mari", 17)
-
-
-school.add_student(student)
-school.add_student(student2)
-school.add_student(student3)
-school.add_student(student4)
-
-print(school.name)   
-for student in school.students_list():
-    print(student)
+device.start()
+laptop.start()
+phone.start()
