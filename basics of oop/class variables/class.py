@@ -1,8 +1,17 @@
 # class variables
 
 
-# class  = shared among all of the objects created from a class (instances) which are defined inside a constructor 
-# class variables are defined outside a constructor, class variables allow us to share data among all objects created from the class. 
+# class variables are shared among all instances of a class, meaning that if one instance changes the value of a class variable, all other instances will see that change.
+# class variables are defined outside of the constructor and are shared among all instances of the class.
+# instance variables are unique to each instance of a class, meaning that if one instance changes the value of an instance variable, other instances will not see that change.
+# instance variables are defined inside the constructor and are unique to each instance of the class.
+ 
+ 
+
+# objects created from a class are called instances
+
+
+
 
 # with instance variables each object has their own version
 # with the class variable all those objects share one variable

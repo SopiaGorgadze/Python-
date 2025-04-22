@@ -7,6 +7,9 @@
 # so it means that child class gets all the attributes from multiple parents
 
 
+# multiple inheritance is when a class inherits from more than one parent class. This means that the child class can access the attributes and methods of both parent classes. This can be useful when you want to create a class that has the functionality of multiple classes.
+
+
 # class Watch:
 #     def show_time(self):
 #         print("showing time....")

@@ -1,15 +1,16 @@
 # introduction to inheritance
 
+# inheritance is a way to create a new class based on an existing class
+# the new class is called the child class or subclass
+# the existing class is called the parent class or superclass
+# the child class inherits all the attributes and methods of the parent class
+# this means that the child class can use all the methods and attributes of the parent class without having to rewrite them
+# this is useful because it allows us to create a new class that has all the functionality of the parent class, but also has its own unique attributes and methods
 
-
-# inheritance - allows class to inherit attributes and methods from another class
+ 
 # helps with code reusability and extensibility
 
-
-
-# The parent class contains common properties and methods.
-# The child class inherits those properties and methods but can also have its own unique attributes and methods.
-
+# The parent class contains common properties and methods. 
 
 class Animal:
     def __init__(self, name):
