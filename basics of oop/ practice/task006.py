@@ -20,7 +20,7 @@ class Bike:
             self.is_rented = False
             Bike.rented_count -= 1
 
-  
+#
  
 
 bike1 = Bike("bmw", "red", False)

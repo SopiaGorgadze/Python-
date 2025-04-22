@@ -1,6 +1,6 @@
 # multilevel inheritance
 
-
+#
 # multilevel inheritance inherits from a parent which inherits from another parebt
 
 #           C(B) <-- B(A)  <-- A

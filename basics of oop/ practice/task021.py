@@ -12,4 +12,4 @@ class User(Logger):
 us = User("Sofia", "sofiagorgadze@icloud.com")
 
 print(us.name, us.email)
-
+#

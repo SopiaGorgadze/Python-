@@ -12,7 +12,7 @@ class Shape(ABC):
     def area(self):
         pass
 
-
+#
 class Triangle(Shape):
     def __init__(self, a, b, fudze, height):
         self.a = a

@@ -29,3 +29,4 @@ school = Highschool("sofia", "physics", "not attending")
 school.introduce()
 school.study()
 school.attendance()
+#

@@ -19,3 +19,4 @@ school = Highschool()
 school.introduce()
 school.study()
 school.attendance()
+#

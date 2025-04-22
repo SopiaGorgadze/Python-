@@ -4,7 +4,7 @@
 # it is a way of organizing code that is based on the concept of objects. an object is a self-contained unit that contains both data and methods that operate on that data. this allows for the creation of complex data structures and the ability to model real-world entities in code.
 
 # object - a bundle of related attributes which can represent real life things just like phone, cup or book
- 
+ #
 
 
 # class is used to design structure and layout of the object.
