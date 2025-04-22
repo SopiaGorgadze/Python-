@@ -1,5 +1,5 @@
 # multiple inheritance
-
+#
 
 # multiple inheritance inherits from more than one parent class
 #               c(A, B)

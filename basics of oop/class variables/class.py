@@ -1,5 +1,5 @@
 # class variables
-
+#
 
 # class variables are shared among all instances of a class, meaning that if one instance changes the value of a class variable, all other instances will see that change.
 # class variables are defined outside of the constructor and are shared among all instances of the class.

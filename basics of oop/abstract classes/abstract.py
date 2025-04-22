@@ -1,5 +1,5 @@
 # abstract class: 
-
+#
 # an abstract class is a class that can not be created on its own and is meant to be inherited by ither classes. theyre supposed to be parent classes. 
 
 # abstract base classes
