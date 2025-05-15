@@ -1,4 +1,4 @@
-#                      values and types
+#                                     values and types
 
 # value - მნიშვნელობა 
 
